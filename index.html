@@ -3,23 +3,67 @@
 	<head>
 		<title>Mt. SAC High School Cross Country Invitational</title> <!--Title (46 characters) is short and to the point, describes the point of the web page-->
 		<style>
-			h1 {text-align: center;}
-			<!-- body {background-color: powderblue;} -->
-		</style>
+			h1 {
+				font-family: nexa;
+				text-align: center;
+				font-size: 400%;
+				margin-top: 100px;
+				margin-bottom: 50px;
+				font-weight: 1500;
+			}
+			body {
+				background-color: #E5E4E2;
+			}
+			p {
+				font-family: sans-serif;
+				text-align: center;
+				font-size: 150%;
+				margin-right: 200px;
+				margin-left: 200px;
+			}
+			p.bottom {
+				font-family: sans-serif;
+				text-align: center;
+				font-size: 150%;
+				margin-right: 200px;
+				margin-left: 200px;
+				margin-bottom: 100px;
+			}
+			div {
+				text-align: center;
+			}
+			hr.big {
+				border: 4px solid black;
+			}
+			hr.small {
+				border: 1px solid gray;
+			}
+		</style> <!-- Div workaround to display images as centered, hr big/small dividers -->
 	</head>
 	<body>
-		<h1 style="font-family:nexa:" style="text-align:center;" style="font-size:400%;">
+		<h1>
 			Mt. SAC Cross Country Invitational
 		</h1>
-		<img src="mtsac-logo.svg" alt="Mt. SAC logo" style="width:40vw;" class="center"> <!-- A simplistic image blown up is best used in an SVG file format; the "vw" tells the browser to automatically scale the image's width to 40% of the window size, the height is then automatically scaled to match the original dimensions-->
-		<p style="font-family:sans-serif:" style="font-size:150%;">
+		<hr class="big">
+		<div>
+			<img src="mtsac-logo.svg" alt="Mt. SAC logo" class="center" style="width:25vw;"> <!-- A simplistic image blown up is best used in an SVG file format; the "vw" tells the browser to automatically scale the image's width to 25% of the window size, the height is then automatically scaled to match the original dimensions-->
+		</div>
+		<p>
 			The <abbr title="Mt. San Antonio College">Mt. SAC</abbr> Cross Country Invitational, sees thousands of High Schoolers each year in which they compete across two days on a <b>grueling</b> 3 mile course. The course takes runners along three primary points of interest; switchbacks, Poop Out Hill, and Reservoir Hill. The dusty course is 3 miles and can frequently approach mid to high 90<sup>o</sup> weather. 
 		</p> <!-- Superscript tag used to produce a degrees symbol -->
-		<p style="font-family:sans-serif:" style="font-size:150%;">
+		<p>
 			The full course map can be found <a href="https://runmtsac.com/wp-content/uploads/2021/09/Course-Map-2021-HS-.pdf" target="_blank">here</a>.
 		</p> <!-- href tag allows an embedded link to the official Mt. SAC course map pdf, the blank parameter opens the pdf in a new tab -->
-		<p style="font-family:sans-serif:" style="font-size:150%;">
+		<p>
 			Although many greatly look forward to the Mt. SAC race each year, some coaches are opposed to <abbr title="Mt. San Antonio College">Mt. SAC</abbr> hosting the <abbr title="California Interscholastic Federation Southern Section">CIF SS</abbr> Championships. Like this <a href="https://twitter.com/RealSeanBrosnan/status/1255635032049283072?ref_src=twsrc%5Etfw" target="_blank">tweet</a> from Newbury Park Coach Sean Brosnan.
+		</p>
+		<hr class="small">
+		<div>
+			<img src="startline.jpg" alt="Mt. SAC Race Start" class="center"> <!-- a complex image is best displayed as a jpg-->
+		</div>
+		<hr class="small">
+		<p class="bottom">
+			The start of the race (as seen above) is pretty hectic, but is essential given the sheer amount of races that need to be run throughout the day. However, there are many opportunities to pass others later on in the entire course.
 		</p>
 	</body>
 </html>
