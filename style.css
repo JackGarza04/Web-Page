@@ -26,27 +26,26 @@ p {
 }
 div {
   border: 3px solid #555;
-  padding: 5px;
+  padding: 15px; /* Border */
 }
-.text {
+.boxtext {
 	font-family: sans-serif; 
 	text-align: center;
-	font-size: 150%;
-	margin-right: 200px;
-	margin-left: 200px;
+	font-size: 125%;
+	padding-right: 50px; /* Text class used to format the text within the div section */
 }
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	/* Center class used to center all images */
 }
-.floatleft {
-	float: left;
+.floatright {
+	float: right; /* Used to make the image float to the left side of the defined area */
 }
 .clearfix::after {
 	content: "";
 	clear: both;
-	display: table;
+	display: table; /* Clearfix fixes the overflow issue when an image and border size dont match up w/ the text */
 }
 hr.big {
 	border: 4px solid black; /* Large dividers class */
