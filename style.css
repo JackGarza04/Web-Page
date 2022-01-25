@@ -16,13 +16,13 @@ p {
 	margin-right: 200px;
 	margin-left: 200px;
 }
-p.bottom {
+#bottom {
 	font-family: sans-serif; 
 	text-align: center;
 	font-size: 150%;
 	margin-right: 200px;
 	margin-left: 200px;
-	margin-bottom: 100px; /* class for the bottom paragraph which will have a larger bottom margin */
+	margin-bottom: 100px; /* id for the bottom paragraph which will have a larger bottom margin */
 }
 div {
 	text-align: center; /* div class used to center all images */
@@ -44,7 +44,7 @@ hr.small {
 	border: none;
 	outline: none;
 	background-color: #A7C7E7; /* Background color of the button */
-	color: white;
+	color: white; /* Text color of the button */
 	cursor: pointer; /* Changes cursor to indicate button */
 	padding: 15px;
 	border-radius: 4px;
