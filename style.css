@@ -26,13 +26,12 @@ p {
 }
 div {
   border: 3px solid #555;
-  padding: 15px; /* Border */
+  padding: 10px; /* Border */
 }
 .boxtext {
 	font-family: sans-serif; 
 	text-align: center;
-	font-size: 125%;
-	padding-right: 50px; /* Text class used to format the text within the div section */
+	font-size: 125%; /* Text class used to format the text within the div section */
 }
 .center {
 	display: block;
